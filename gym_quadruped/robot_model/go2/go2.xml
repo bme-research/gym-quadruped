@@ -28,10 +28,6 @@
             </default>
             <default class="collision">
                 <geom group="3"/>
-                <default class="foot">
-                    <geom size="0.022" pos="-0.002 0 -0.213" priority="1" solimp="0.015 1 0.031" condim="6"
-                          friction="0.8 0.02 0.01"/>
-                </default>
             </default>
         </default>
     </default>
@@ -103,7 +99,10 @@
                         <geom size="0.011 0.017  0.017" pos="0.008 0 -0.190" quat="0.999688 0 0.249974 0" type="box"
                               class="collision"/>
                         <geom pos="0 0 -0.213" mesh="foot" class="visual" material="black"/>
-                        <geom name="FL" class="foot"/>
+                        
+                        <geom name="FL" class="collision" size="0.022" pos="-0.002 0 -0.213" priority="1" condim="6"
+                          friction="0.8 0.02 0.01"/>
+
                     </body>
                 </body>
             </body>
@@ -135,7 +134,10 @@
                         <geom size="0.011 0.017  0.017" pos="0.008 0 -0.190" quat="0.999688 0 0.249974 0" type="box"
                               class="collision"/>
                         <geom pos="0 0 -0.213" mesh="foot" class="visual" material="black"/>
-                        <geom name="FR" class="foot"/>
+
+                        <geom name="FR" class="collision" size="0.022" pos="-0.002 0 -0.213" priority="1" condim="6"
+                          friction="0.8 0.02 0.01"/>
+
                     </body>
                 </body>
             </body>
@@ -168,7 +170,10 @@
                         <geom size="0.011 0.017  0.017" pos="0.008 0 -0.190" quat="0.999688 0 0.249974 0" type="box"
                               class="collision"/>
                         <geom pos="0 0 -0.213" mesh="foot" class="visual" material="black"/>
-                        <geom name="RL" class="foot"/>
+
+                        <geom name="RL" class="collision" size="0.022" pos="-0.002 0 -0.213" priority="1" condim="6"
+                          friction="0.8 0.02 0.01"/>
+
                     </body>
                 </body>
             </body>
@@ -200,7 +205,10 @@
                         <geom size="0.011 0.017  0.017" pos="0.008 0 -0.190" quat="0.999688 0 0.249974 0" type="box"
                               class="collision"/>
                         <geom pos="0 0 -0.213" mesh="foot" class="visual" material="black"/>
-                        <geom name="RR" class="foot"/>
+
+                        <geom name="RR" class="collision" size="0.022" pos="-0.002 0 -0.213" priority="1" condim="6"
+                          friction="0.8 0.02 0.01"/>
+
                     </body>
                 </body>
             </body>
